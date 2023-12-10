@@ -1,5 +1,9 @@
-const pug = require("pug");
+import pug from "pug";
+import pugConfig from "./config/pug-config";
 
+console.log(pugConfig);
+
+/*
 // Compile the source code
 const compiledFunction = pug.compileFile("template.pug");
 
@@ -17,3 +21,4 @@ console.log(
     name: "Forbes",
   })
 );
+*/

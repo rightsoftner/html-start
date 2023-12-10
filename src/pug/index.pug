@@ -1,0 +1,32 @@
+extends layout
+block content
+
+  .container.mt-3
+    .row
+      .col.m-2
+        .card(style="width: 18rem;")
+          .card-body
+            h5.card-title Technologies
+            h6.card-subtitle.mb-2.text-muted Programming language
+            p.card-text Programming language, command languages and etc.
+            .row
+              .col #[a(href="/language/js" class="card-link") JavaScript]
+              .col #[a(href="/language/html5" class="card-link") HTML-5]
+      .col.m-2
+        .card(style="width: 18rem;")
+          .card-body
+            h5.card-title Character encoding
+            h6.card-subtitle.mb-2.text-muted UTF-8, UTF-16 and etc.
+            p.card-text Different character encodings like UTF-8, UTF-16 and etc.
+            .row
+              .col #[a(href="#" class="card-link") UTF-8]
+              .col #[a(href="#" class="card-link") UTF-16]
+      .col.m-2
+        .card(style="width: 18rem;")
+          .card-body
+            h5.card-title IDE
+            h6.card-subtitle.mb-2.text-muted IDE, Editors and etc.
+            p.card-text Cheat Sheets for popular IDE and editors.
+            .row
+              .col #[a(href="#" class="card-link") IDE]
+              .col #[a(href="/ide/ed/vim" class="card-link") Editors]

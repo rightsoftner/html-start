@@ -3,8 +3,10 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "gulp && webpack serve --progress -c config/webpack.dev.js",
+    "build:pug": "node pugstart.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
